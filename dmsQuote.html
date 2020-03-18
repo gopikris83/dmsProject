@@ -1,0 +1,16 @@
+<%@ page import = "dmsQuote.java"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DMS Quote Page</title>
+</head>
+<body>
+<jsp:useBean id ="test" class="dms.dmsQuotes" />
+<%
+
+dmsQuotes tc = new dmsQuotes();
+tc.quoteMethod();
+%>
+</body>
+</html>

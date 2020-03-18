@@ -1,0 +1,18 @@
+<%@ page import = "dmsModule.java"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ford DMS</title>
+</head>
+<body>
+<jsp:useBean id ="test" class="dms.dmsModule" />
+<%
+
+dmsModule tc = new dmsModule();
+tc.testMethod();
+%>
+<p about="Link"><url href="dmQuote.html"></url></p>
+
+</body>
+</html>
